@@ -94,6 +94,8 @@ class FedAvgClient:
             `before` means pre-local-training.
             `after` means post-local-training
         """
+        if self.client_id = 1:
+            print({self.client_id})
         eval_results = {
             "before": {"train": Metrics(), "val": Metrics(), "test": Metrics()},
             "after": {"train": Metrics(), "val": Metrics(), "test": Metrics()},
