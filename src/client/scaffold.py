@@ -43,8 +43,8 @@ class SCAFFOLDClient(FedAvgClient):
                 self.c_delta.append(c_p - c_l)
 
             self.c_local = c_plus
-            """if self.client_id == 1:
-                print({self.client_id})"""
+            if self.client_id == 1:
+                print({self.client_id})
 
         return self.package()
 
